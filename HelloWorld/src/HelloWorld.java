@@ -1,21 +1,39 @@
 
 public class HelloWorld {
 	/*
-	 * ctrl+/ ÁÖ¼® ´ÜÃàÅ°
-	 * ctrl+d ¶óÀÎ»èÁ¦
-	 * ¿©·¯¶óÀÎ ÁÖ¼®Ã³¸®ÇÒ¶§ »ç¿ë /**'
-	 * ÀÛ¼ºÀÚ : ÀÌ´ÙÇı 2020.01.21
+	 * ctrl+/ ì£¼ì„ ë‹¨ì¶•í‚¤
+	 * ctrl+d ë¼ì¸ì‚­ì œ
+	 * ì—¬ëŸ¬ë¼ì¸ ì£¼ì„ì²˜ë¦¬í• ë•Œ ì‚¬ìš© /**'
+	 * ì‘ì„±ì : ì´ë‹¤í˜œ 2020.01.21
 	 */
 	public static void main (String[] args) {
-		//º¯¼ö(°ªÀ» ´ãÀ½) ÁöÁ¤.  type¸í º¯¼ö¸í 
+		//ë³€ìˆ˜(ê°’ì„ ë‹´ìŒ) ì§€ì •.  typeëª… ë³€ìˆ˜ëª… 
 		int age = 20;
 		int year = 2020;
 		
-		// Hellow World Ãâ·Â±¸¹®
-		//sout ctrl space -> System.out.println ÀÚµ¿¿Ï¼º
-		System.out.println("¿ÃÇØ´Â" + year + "³â");
-		System.out.println("³» ³ªÀÌ´Â" + age + "ÀÔ´Ï´Ù.");
+		// Hellow World ì¶œë ¥êµ¬ë¬¸
+		//sout ctrl space -> System.out.println ìë™ì™„ì„±
+		System.out.println("ì˜¬í•´ëŠ”" + year + "ë…„");
+		System.out.println("ë‚´ ë‚˜ì´ëŠ”" + age + "ì…ë‹ˆë‹¤.");
 		System.out.println("Hello, World");
 //		System.out.println("Hello, World"); 
+		
+		int height = 170;
+		int weight = 65;
+		int firstDayOfYear =1;
+		int firstdayOfYear =2;
+		
+		int num1, num2, num3;
+		num1=10;
+		num2=20;
+		
+		int summary = num1+num2;
+		
+		long sum = 0;
+		int firstValue = 2000000000;
+		int secondValue = 1000000000;
+		sum = (long)firstValue +secondValue;
+		System.out.println("ë‘ìˆ˜ì˜ í•©ì€ : "+sum);
+//		int ë²”ìœ„ -2147483648 ~ 2147483647
 	}
 }
