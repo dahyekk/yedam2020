@@ -1,7 +1,6 @@
 package com.yedam.ldh.interfaces.control;
 import java.util.Scanner;
 import com.yedam.ldh.interfaces.impl.EmpServiceImpl;
-import com.yedam.ldh.interfaces.impl.EmpServiceImpl2;
 import com.yedam.ldh.interfaces.model.EmpService;
 import com.yedam.ldh.interfaces.model.Employee;
 

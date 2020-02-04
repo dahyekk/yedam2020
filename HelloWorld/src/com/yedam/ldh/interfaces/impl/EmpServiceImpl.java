@@ -43,6 +43,7 @@ public class EmpServiceImpl implements EmpService{
 		for(int i = 0; i <emps.length; i ++) {
 			if(emps[i]!=null && emps[i].getEmpNo() ==empNO) {
 				emps[i]= null;
+				System.out.println("삭제완료");
 			}
 		}
 	}
